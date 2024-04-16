@@ -27,6 +27,8 @@
         vendor_framework_compatibility_matrix.xml
         vendor_framework_compatibility_matrix.xml
         vendor_framework_compatibility_matrix.xml
+        vendor_framework_compatibility_matrix.xml
+        vendor_framework_compatibility_matrix.xml
         vendor.xiaomi.sensor.citsensorservice@2.0_compatibility_matrix.xml
         vendor.xiaomi.sensor.citsensorservice@1.1_compatibility_matrix.xml
         vendor.xiaomi.sensor.communicate@1.0_compatibility_matrix.xml
@@ -235,6 +237,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.aks.gamepad</name>
+        <version>1.0</version>
+        <interface>
+            <name>IGamepad</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.display.color</name>
         <version>1.0-7</version>
         <interface>
@@ -244,7 +254,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.display.config</name>
-        <version>1.0-15</version>
+        <version>1.0-22</version>
         <version>2.0</version>
         <interface>
             <name>IDisplayConfig</name>
@@ -323,7 +333,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.qti.data.txpwrservice</name>
-        <version>1-2</version>
+        <version>1-4</version>
         <interface>
             <name>ITxPwrService</name>
             <instance>default</instance>
@@ -358,7 +368,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.qti.gnss</name>
-        <version>1-2</version>
+        <version>1-4</version>
         <interface>
             <name>ILocAidlGnss</name>
             <instance>default</instance>
@@ -1186,6 +1196,13 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.qti.qegahal</name>
+        <interface>
+            <name>IQegahal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.qesdhal</name>
         <version>1.0-3</version>
@@ -1516,6 +1533,27 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <interface>
+            <name>IMrm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <interface>
+            <name>IMiCertificate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <interface>
+            <name>IMrmRemoteAuth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.mtdservice</name>
         <version>1.0-3</version>
@@ -1643,12 +1681,24 @@
             <name>ITouchFeature</name>
             <instance>default</instance>
         </interface>
+        <interface>
+            <name>ITouchFeatureCallback</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.modem.qms</name>
         <version>1.0</version>
         <interface>
             <name>IMiQms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.mslg.keeper</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMSLgKeeper</name>
             <instance>default</instance>
         </interface>
     </hal>
