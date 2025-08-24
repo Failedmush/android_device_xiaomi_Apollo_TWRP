@@ -1,4 +1,4 @@
-# android_device_xiaomi_umi_TWRP
+# android_device_xiaomi_apollo_TWRP
 For building TWRP for Xiaomi Mi 10 / 10 Pro
 
 TWRP device tree for Xiaomi Mi 10 and Mi 10 Pro
