@@ -23,9 +23,8 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_RELEASE_NAME := apollo
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := umi
+PRODUCT_DEVICE := apollo
 PRODUCT_NAME := twrp_apollo
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi K30S Ultra
+PRODUCT_MODEL := Mi 10T
 PRODUCT_MANUFACTURER := Xiaomi
-TW_FRAMERATE := 144
